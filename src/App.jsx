@@ -1,6 +1,11 @@
+import TodoInput from "./components/TodoInput";
+
 function App() {
-  return <>
-  </>;
+  return (
+    <main>
+      <TodoInput />
+    </main>
+  );
 }
 
 export default App;
